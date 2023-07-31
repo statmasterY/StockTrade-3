@@ -1,0 +1,20 @@
+{
+    "Desc": [
+        "scan all extreme prices"
+    ],
+    "TASKID": "Extreme_market_scanner_futures",
+    "PACKAGEPATH": "ZhangyaoyuanStrategies",
+    "STRATEGY": "Extreme",
+    "MODE": "EXTREME_SCAN_PRICE",
+    "TaskTag": "Future_indices",
+    "QSCode": "//192.168.2.39/ZhangyaoyuanStrategies/Extreme/data/future_pool.csv",
+    "BeginDate": "2020-07-14",
+    "EndDate": "2023-07-14",
+    "Arguments": {
+        "window": 63,
+        "upper_q": 98,
+        "lower_q": 2,
+        "change_lim": 0.2,
+        "alert_newest": true
+    }
+}
